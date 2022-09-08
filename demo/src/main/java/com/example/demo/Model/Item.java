@@ -1,11 +1,11 @@
-package com.Model;
+package com.example.demo.Model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+// import javax.persistence.Entity;
+// import javax.persistence.Id;
 
-@Entity
+//@Entity
 public class Item {
-    @Id
+    //@Id
     protected int Id;
     protected String title;
     protected String desc;

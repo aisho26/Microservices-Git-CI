@@ -1,7 +1,8 @@
-package com.DAO;
+package com.example.demo.DAO;
 import java.util.ArrayList;
-import com.Model.Item;
 import java.util.Iterator;
+
+import com.example.demo.Model.Item;
 
 public class ItemDao {
    //hardcode new items

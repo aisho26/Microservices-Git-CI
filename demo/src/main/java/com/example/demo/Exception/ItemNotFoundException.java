@@ -1,4 +1,4 @@
-package com.Exception;
+package com.example.demo.Exception;
 
 
 public class ItemNotFoundException extends RuntimeException{
