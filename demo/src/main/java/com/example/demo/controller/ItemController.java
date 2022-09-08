@@ -35,22 +35,22 @@ public class ItemController {
         return items;
     }
 
-    @PostMapping("/item")
-    public String addItem(@RequestBody Item item){
-        itemdao.createItem(item);
-        return "item added successfully";
-    }
+    // @PostMapping("/item")
+    // public String addItem(@RequestBody Item item){
+    //     itemdao.createItem(item);
+    //     return "item added successfully";
+    // }
 
-    @DeleteMapping("/item")
-    public String deleteItem(@RequestBody Item item){
-        itemdao.deleteItem(item);
-        return "item deleted successfully";
-    }
+    // @DeleteMapping("/item")
+    // public String deleteItem(@RequestBody Item item){
+    //     itemdao.deleteItem(item);
+    //     return "item deleted successfully";
+    // }
 
-    @PostMapping("/item")
-    public String updateItem(@RequestBody Item item){
-        itemdao.updateItem(item);
-        return "item updated successfully";
-    }
+    // @PostMapping("/item")
+    // public String updateItem(@RequestBody Item item){
+    //     itemdao.updateItem(item);
+    //     return "item updated successfully";
+    // }
     
 }
