@@ -12,6 +12,14 @@ public class Item {
     protected String imagePath;
     protected float price; 
 
+    public Item(int Id, String title, String desc, String imagePath, float price){
+        this.Id = Id;
+        this.title = title;
+        this.desc = desc; 
+        this.imagePath = imagePath;
+        this.price = price;
+    }
+
     public int getId(){
         return this.Id;
     }
